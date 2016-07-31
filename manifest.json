@@ -15,8 +15,12 @@
   ],
   "content_scripts": [
     {
+      "run_at": "document_start",
       "matches": ["http://*/*", "https://*/*"],
       "js": ["content.js"]
     }
+  ],
+  "web_accessible_resources": [
+    "alert.html"
   ]
 }
