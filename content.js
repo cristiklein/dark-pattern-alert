@@ -1,5 +1,3 @@
-console.log('DarkPattern ran on ' + window.location);
-
 var iframe = document.createElement('iframe');
 iframe.allowtransparency = true;
 document.documentElement.appendChild(iframe);
