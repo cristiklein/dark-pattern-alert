@@ -1,0 +1,8 @@
+[
+  {
+    "url_match": "www.iflscience.com",
+    "alerts": {
+      "disguised_ads": "This website disguises ads under the 'You May Like' section."
+    }
+  }
+]
